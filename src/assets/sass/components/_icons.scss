@@ -1,0 +1,23 @@
+.magnifying-glass__icon  {
+  height: 2rem;
+  width: 2rem;
+  fill: var(--color-grey-dark-3);
+}
+
+.bookmark__icon,
+.chat__icon {
+  height: 2.25rem;
+  width: 2.25rem;
+
+  //add color to svg icons
+  fill: var(--color-grey-dark-2)
+
+}
+
+.aircraft__icon,
+.home__icon,
+.key__icon,
+.map__icon {
+  width: 1.75rem;
+  height: 1.75rem;
+}

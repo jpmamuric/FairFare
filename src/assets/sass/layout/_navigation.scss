@@ -1,0 +1,60 @@
+.navigation {
+  // use align-self to override paret header 'centered' alignment
+  align-self: stretch;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  & > * {
+    cursor: pointer;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+
+    //set height to take up full space
+    height: 100%;
+  }
+
+  & > *:hover{
+    background-color: var(--color-grey-light-2);
+  }
+
+  &__icon-box {
+      position: relative;
+  }
+
+  &__icon {
+
+  }
+
+  &__notificaton {
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    color: var(--color-white);
+    display: flex;
+    font-size: .8rem;
+    height: 1.75rem;
+    justify-content: center;
+    position: absolute;
+    width: 1.75rem;
+    top: 1.5rem;
+    right: 1.1rem;
+
+
+  }
+
+  &__user {
+
+  }
+
+  &__user-img {
+    border-radius: 50%;
+    height: 3.75rem;
+    margin-right: 1rem;
+  }
+
+  &__username {
+
+  }
+}
