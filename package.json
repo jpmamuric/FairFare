@@ -1,6 +1,7 @@
 {
   "name": "fair-fare",
   "version": "0.1.0",
+  "desciption": "Simple React application demonstrating advanced css|sass techniques with flexbox.",
   "private": true,
   "dependencies": {
     "node-sass-chokidar": "^1.2.2",
