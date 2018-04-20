@@ -20,4 +20,14 @@
 .map__icon {
   width: 1.75rem;
   height: 1.75rem;
+  margin-right: 2rem;
+  // fill: currentColor, color of parent element.
+  fill: var(--color-grey-light-1);
+}
+
+.star__icon,
+.location-pin__icon  {
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: var(--color-primary);
 }

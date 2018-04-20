@@ -2,3 +2,42 @@
   flex: 1;
   background-color: var(--color-white);
 }
+
+.gallery {
+  display: flex;
+
+  &__img {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.overview {
+  display: flex;
+
+
+  &__heading {
+
+  }
+
+  &__stars {
+      flex: 1;
+  }
+
+  &__location {
+
+  }
+
+  &__rating {
+
+  }
+
+  &__rating-count{
+
+  }
+
+  &__rating-average {
+
+  }
+}
