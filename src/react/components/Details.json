@@ -1,0 +1,19 @@
+{
+  "amenities" :[
+    { "description": "Extravagent Boulevard Pool" },
+    { "description": "Fitness Center" },
+    { "description": "Premiere Concierge Services" },
+    { "description": "Luxury Spa" },
+    { "description": "In-suite Amenities" },
+    { "description": "Business Center" },
+    { "description": "Dog Friendly Program" },
+    { "description": "Close to the Strip" }
+  ]
+,
+  "friends" : [
+    { "src": "user-3.jpg", "alt":"friend 1"},
+    { "src": "user-4.jpg", "alt":"friend 2"},
+    { "src": "user-5.jpg", "alt":"friend 3" },
+    { "src": "user-6.jpg", "alt":"friend 4"}
+  ]
+}

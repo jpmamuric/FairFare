@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
+import Details from './Details';
 import Icon from './Icon';
-
 
 const images = [
   { name : 'hotel-1'},
@@ -10,6 +10,19 @@ const images = [
 ]
 
 class Home extends Component {
+  state = {
+    hotelRating: 4
+  }
+
+  renderStars(){
+    let starIcons = []
+    for (let i = 0; i < this.state.hotelRating ; i++ ) {
+      starIcons.push(<Icon name='star' key={i} />)
+    }
+
+    return starIcons.map(star => star)
+  }
+
   render() {
     return (
       <main className="hotel-view">
@@ -29,12 +42,7 @@ class Home extends Component {
           </h1>
 
           <div className="overview__stars">
-            {/* generate dynamic ratings*/}
-
-            <Icon name='star' />
-            <Icon name='star' />
-            <Icon name='star' />
-            <Icon name='star' />
+            { this.renderStars() }
           </div>
 
           <div className="overview__location">
@@ -44,10 +52,12 @@ class Home extends Component {
 
           <div className='overview__rating'>
             <div className='overview__rating-average'>8.6</div>
-            <div className="overview__rating-count">421</div>
+            <div className="overview__rating-count">421 Votes</div>
           </div>
-
         </div>
+
+        <Details />
+
       </main>
     )
   }

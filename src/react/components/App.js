@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import Header from './Header';
-import Sidebar from './Sidebar';
 import Home from './Home';
+import Sidebar from './Sidebar';
 
 class App extends Component {
   render() {
