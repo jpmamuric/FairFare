@@ -1,6 +1,7 @@
 import React from 'react';
 
 import detailData from './Details.json'
+import Reviews from './Reviews';
 
 const Details = () => {
   return (
@@ -33,9 +34,8 @@ const Details = () => {
         </div>
 
       </div>
-      <div className="detail__reviews">
-        Reviews
-      </div>
+      
+      <Reviews />
     </div>
   )
 }
