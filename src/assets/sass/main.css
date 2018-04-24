@@ -96,6 +96,7 @@ body {
   display: flex; }
 
 .detail {
+  font-size: 1.4rem;
   display: flex;
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
@@ -287,8 +288,22 @@ body {
     margin-right: 1rem; }
 
 .reviews {
-  background-color: yellowgreen;
   flex: 1; }
+
+.review {
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow-very-light);
+  padding: 3rem;
+  margin-bottom: 3rem; }
+  .review__user {
+    display: flex; }
+    .review__user-box {
+      display: flex;
+      flex-direction: column; }
+  .review__photo {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%; }
 
 .sidebar {
   background-color: var(--color-grey-dark-1);

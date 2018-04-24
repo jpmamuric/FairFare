@@ -1,6 +1,7 @@
 import React from 'react';
 
-import detailData from './Details.json'
+import detailData from './Details.json';
+import reviewsData from './Reviews.json';
 import Reviews from './Reviews';
 
 const Details = () => {
@@ -34,8 +35,10 @@ const Details = () => {
         </div>
 
       </div>
-      
-      <Reviews />
+
+      <figure className='reviews-container'>
+        <Reviews reviews={reviewsData} />
+      </figure>
     </div>
   )
 }

@@ -1,4 +1,37 @@
 .reviews {
-  background-color: yellowgreen;
   flex: 1;
+}
+
+.review {
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow-very-light);
+  padding: 3rem;
+  margin-bottom: 3rem;
+
+  &__text {
+  }
+
+  &__user {
+    display: flex;
+
+    &-box {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-name {}
+
+    &-date {}
+
+  }
+
+  &__photo {
+    width:: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+  }
+
+  &__rating {
+
+  }
 }

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "John Doe",
+    "date": "Feb 23, 2017",
+    "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed neque feugiat lacus aliquet consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed neque feugiat lacus aliquet consectetur.",
+    "rating" : 7,
+    "img": "user-1.jpg"
+  },
+  {
+    "name": "Jane Doe",
+    "date": "March 2, 2017",
+    "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed neque feugiat lacus aliquet consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed neque feugiat lacus aliquet consectetur.",
+    "rating" : 9,
+    "img": "user-2.jpg"
+   }
+]
