@@ -7,21 +7,47 @@
   box-shadow: var(--box-shadow-very-light);
   padding: 3rem;
   margin-bottom: 3rem;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "\201C";
+    position: absolute;
+    top: -2.75rem;
+    left: -1rem;
+    font-size: 20rem;
+    color: var(--color-grey-light-2);
+    font-family: sans-serif;
+    line-height: 1;
+    z-index: 10;
+  }
 
   &__text {
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 20;
   }
 
   &__user {
     display: flex;
-
+    align-items: center;
     &-box {
+      margin-right: auto;
       display: flex;
       flex-direction: column;
     }
 
-    &-name {}
+    &-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: .4rem;
+    }
 
-    &-date {}
+    &-date {
+      font-size: 1.1rem;
+      color: var(--color-grey-dark-3);
+    }
 
   }
 
@@ -29,9 +55,13 @@
     width:: 4.5rem;
     height: 4.5rem;
     border-radius: 50%;
+    margin-right: 1.5rem;
   }
 
   &__rating {
-
+    color: var(--color-primary);
+    font-size: 2.2rem;
+    font-weight: 300;
   }
+
 }

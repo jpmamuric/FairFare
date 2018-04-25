@@ -5,7 +5,7 @@ const Reviews = (props) => {
     const { name, date, comments , rating, img } = review;
     return (
       <figure className="review" key={i}>
-        <blockquote className="review_text">
+        <blockquote className="review__text">
           { comments }
         </blockquote>
         <figcaption className="review__user">

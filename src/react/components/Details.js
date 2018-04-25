@@ -2,6 +2,7 @@ import React from 'react';
 
 import detailData from './Details.json';
 import reviewsData from './Reviews.json';
+import Button from './Button';
 import Reviews from './Reviews';
 
 const Details = () => {
@@ -12,6 +13,7 @@ const Details = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed neque feugiat lacus aliquet consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed neque feugiat lacus aliquet consectetur.
         </p>
         <p className="detail__description-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed neque feugiat lacus aliquet consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed neque feugiat lacus aliquet consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed neque feugiat lacus aliquet consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <ul className="detail__list">
@@ -38,7 +40,10 @@ const Details = () => {
 
       <figure className='reviews-container'>
         <Reviews reviews={reviewsData} />
+        <Button />
       </figure>
+
+
     </div>
   )
 }
