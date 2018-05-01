@@ -6,6 +6,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media only screen and (max-width: 26.87em) {
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 11rem;
+  }
 }
 
 .logo {
@@ -18,6 +24,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media only screen and (max-width: 26.87em) {
+    order: 1;
+    flex: 0 0 100%;
+  }
 
   &__input {
     //inputs dont inherit global font-family/font-size, must specify 'inherit'

@@ -12,10 +12,96 @@
 
     &:hover {
       color: var(--color-grey-dark-1);
+
+      span {
+        margin-left: 8px;
+        transition: margin-left .2s;
+      }
     }
 
     &:focus {
       outline: none;
       animation: pulsate 1s infinite;
     }
+
+    & span {
+      margin-left: 3px;
+    }
   }
+
+  .cta {
+    padding: 3.5rem 0;
+    text-align: center;
+
+    @media only screen and (max-width: 62.93em) {
+      padding: 2.5rem 0;
+    }
+
+
+
+    &__book-now {
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: 300;
+      margin-bottom: 2.5rem;
+
+      @media only screen and (max-width: 26.87em) {
+        padding: 1rem;
+      }
+    }
+  }
+
+
+.btn {
+  border-radius: 100px;
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right,
+    var(--color-primary-light),
+    var(--color-primary-dark));
+  position: relative;
+  overflow: hidden;
+
+
+  & > * {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    transition: all .2s;
+  }
+
+  &__show {
+    padding: 2rem 7.5rem;
+  }
+
+  &__hide {
+    padding: 2rem 0;
+    position: absolute;
+    left: 0;
+    top: -100%;
+  }
+
+  &:hover {
+    background-image: linear-gradient(to left,
+      var(--color-primary-light),
+      var(--color-primary-dark));
+      animation: pulsate 1s infinite;
+  }
+
+  &:hover  &__show {
+    transform: translateY(100%);
+  }
+
+  &:hover &__hide {
+    top: 0;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+}

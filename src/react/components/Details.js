@@ -42,8 +42,6 @@ const Details = () => {
         <Reviews reviews={reviewsData} />
         <Button />
       </figure>
-
-
     </div>
   )
 }

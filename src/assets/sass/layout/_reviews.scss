@@ -1,5 +1,8 @@
-.reviews {
+.reviews-container {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .review {
@@ -9,6 +12,11 @@
   margin-bottom: 3rem;
   position: relative;
   overflow: hidden;
+
+  @media only screen and (max-width: 62.93em) {
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
 
   &::before {
     content: "\201C";

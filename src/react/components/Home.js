@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Details from './Details';
+import ButtonCTA from './ButtonCTA';
 import Icon from './Icon';
 
 const images = [
@@ -38,7 +39,7 @@ class Home extends Component {
 
         <div className="overview">
           <h1 className="overview__heading">
-            Cosmopolitan
+            Blootopia
           </h1>
 
           <div className="overview__stars">
@@ -57,6 +58,7 @@ class Home extends Component {
         </div>
 
         <Details />
+        <ButtonCTA />
       </main>
     )
   }
