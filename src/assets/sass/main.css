@@ -136,6 +136,9 @@ body {
     @media only screen and (max-width: 26.87em) {
       .cta__book-now {
         padding: 1rem; } }
+    @media only screen and (max-width: 30em) {
+      .cta__book-now {
+        font-size: 1rem; } }
 
 .btn {
   border-radius: 100px;
